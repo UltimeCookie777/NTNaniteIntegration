@@ -1,0 +1,15 @@
+NTNan.Afflictions = {}
+
+NTNan.Afflictions.Precursor = "precursor"
+NTNan.Afflictions.Decay = "nanitedecay"
+NTNan.Afflictions.Reconstructor = "reconstructornanite"
+NTNan.Afflictions.DeepFix = "deepfixnanite"
+NTNan.Afflictions.BoneFix = "bonefixnanite"
+NTNan.Afflictions.OxyBlood = "oxybloodnanite"
+NTNan.Afflictions.HuskPara = "huskparalnanite"
+NTNan.Afflictions.Neural = "neuralnanite"
+NTNan.Afflictions.AntiTox = "antitoxnanite"
+NTNan.Afflictions.VigorBuff = "vigorbuffnanite"
+NTNan.Afflictions.HyperBuff = "hyperbuffnanite"
+NTNan.Afflictions.VisionBuff = "visionbuffnanite"
+NTNan.Afflictions.LaniusXeno = "laniusxenonanite"

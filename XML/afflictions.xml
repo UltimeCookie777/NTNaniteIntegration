@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Afflictions>
+    <Affliction identifier="nanitedecay" type="nanite" isbuff="true" limbspecific="false" maxstrength="1"  activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="178,182,182,255;178,120,182,255;178,78,182,255">
+        <!--<Effect minstrength="1" maxstrength="80" strengthchange="-0.2" />
+        <Effect minstrength="80" maxstrength="100" strengthchange="-0.2">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="reconstructornanite" amount="20" />
+                <ReduceAffliction identifier="deepfixnanite" amount="20" />
+                <ReduceAffliction identifier="antitoxnanite" amount="10" />
+                <ReduceAffliction identifier="oxybloodnanite" amount="10" />
+                <ReduceAffliction identifier="neuralnanite" amount="10" />
+                <ReduceAffliction identifier="huskparalnanite" amount="10" />
+                <ReduceAffliction identifier="vigorbuffnanite" amount="10" />
+                <ReduceAffliction identifier="hyperbuffnanite" amount="10" />
+                <ReduceAffliction identifier="visionbuffnanite" amount="10" />
+                <ReduceAffliction identifier="laniusxenonanite" amount="10" />
+                <ReduceAffliction identifier="bonefixnanite" amount="10" />
+            </StatusEffect>
+        </Effect>-->
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,128,128,128" color="178,120,182,255" origin="0,0" />
+    </Affliction>
+
+    <Affliction identifier="precursor" type="nanite" isbuff="true" limbspecific="false" maxstrength="5" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+        <!-- <Effect minstrength="0" maxstrength="19" strengthchange="0.1">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="5" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="20" maxstrength="21" strengthchange="0">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="5" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="21" maxstrength="39" strengthchange="0.1">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="9" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="40" maxstrength="41" strengthchange="0">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="9" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="41" maxstrength="59" strengthchange="0.1">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="14" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="60" maxstrength="61" strengthchange="0">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="14" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="61" maxstrength="79" strengthchange="0.1">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="20" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="80" maxstrength="81" strengthchange="0">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="20" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="81" maxstrength="100" strengthchange="0.1">
+            <StatusEffect target="Character">
+                <ReduceAffliction identifier="nanitedecay" amount="27.1" />
+            </StatusEffect>
+        </Effect>-->
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,0,128,128" color="116,170,232,255" origin="0,0" />
+    </Affliction>
+
+    <Affliction identifier="reconstructornanite" type="nanite" isbuff="true" limbspecific="false" maxstrength="3" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+        
+        
+        <!-- <Effect minstrength="0" maxstrength="29" strengthchange="0.2">
+            <StatusEffect target="This, Limb">
+                <ReduceAffliction identifier="burn" amount="0.1" />
+                <ReduceAffliction identifier="acidburn" amount="0.1" />
+                <ReduceAffliction identifier="lacerations" amount="0.1" />
+                <Affliction identifier="nanitedecay" amount="1" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="30" maxstrength="31" strengthchange="0">
+            <StatusEffect target="This, Limb">
+                <ReduceAffliction identifier="burn" amount="0.1" />
+                <ReduceAffliction identifier="acidburn" amount="0.1" />
+                <ReduceAffliction identifier="lacerations" amount="0.1" />
+                <Affliction identifier="nanitedecay" amount="1" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="31" maxstrength="59" strengthchange="0.2">
+            <StatusEffect target="This, Limb">
+                <ReduceAffliction identifier="bleeding" amount="0.3" />
+                <ReduceAffliction identifier="bleedingnonstop" amount="0.3" />
+                <ReduceAffliction identifier="burn" amount="0.2" />
+                <ReduceAffliction identifier="acidburn" amount="0.1" />
+                <ReduceAffliction identifier="lacerations" amount="0.2" />
+                <ReduceAffliction identifier="bitewounds" amount="0.1" />
+                <Affliction identifier="nanitedecay" amount="2" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="60" maxstrength="61" strengthchange="0">
+            <StatusEffect target="This, Limb">
+                <ReduceAffliction identifier="bleeding" amount="0.3" />
+                <ReduceAffliction identifier="bleedingnonstop" amount="0.3" />
+                <ReduceAffliction identifier="burn" amount="0.2" />
+                <ReduceAffliction identifier="acidburn" amount="0.1" />
+                <ReduceAffliction identifier="lacerations" amount="0.2" />
+                <ReduceAffliction identifier="bitewounds" amount="0.1" />
+                <Affliction identifier="nanitedecay" amount="2" />
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="61" maxstrength="90" strengthchange="0.2">
+            <StatusEffect target="This, Limb">
+                <ReduceAffliction identifier="bleeding" amount="0.5" />
+                <ReduceAffliction identifier="bleedingnonstop" amount="0.5" />
+                <ReduceAffliction identifier="burn" amount="0.3" />
+                <ReduceAffliction identifier="acidburn" amount="0.15" />
+                <ReduceAffliction identifier="lacerations" amount="0.3" />
+                <ReduceAffliction identifier="bitewounds" amount="0.3" />
+                <ReduceAffliction identifier="gunshotwound" amount="0.2" />
+                <Affliction identifier="nanitedecay" amount="3" />
+            </StatusEffect>
+        </Effect>-->
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="128,0,128,128" color="116,170,232,255" origin="0,0" />
+    </Affliction>
+
+    <Affliction identifier="bonefixnanite" type="nanite" isbuff="true" limbspecific="true" maxstrength="3" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+        <!--<Effect minstrength="0" maxstrength="30" strengthchange="0.2">
+        <StatusEffect target="This, Limb">
+            <ReduceAffliction identifier="blunttrauma" amount="0.4" />
+            <ReduceAffliction identifier="bonedamage" amount="0.5" />
+            <ReduceAffliction identifier="ra_fracture" amount="100" />
+            <ReduceAffliction identifier="la_fracture" amount="100" />
+            <ReduceAffliction identifier="rl_fracture" amount="100" />
+            <ReduceAffliction identifier="ll_fracture" amount="100" />
+            <ReduceAffliction identifier="t_fracture" amount="100" />
+            <ReduceAffliction identifier="h_fracture" amount="100" />
+            <ReduceAffliction identifier="n_fracture" amount="100" />
+            <ReduceAffliction identifier="t_paralysis" amount="100" />  
+            <Affliction identifier="nanitedecay" amount="2" />
+        </StatusEffect>
+        
+        </Effect>-->
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,384,128,128" color="116,170,232,255" origin="0,0" />
+    </Affliction>
+
+
+    <Affliction identifier="armstronghardening" name="Nanomachines, son!" type="resistance" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="31" showiconthreshold="1000" showicontoothersthreshold="1000">
+        <Effect minstrength="0" maxstrength="31" strengthchange="-30" minbodytint="255,255,255,0" maxbodytint="0,0,0,255" resistancefor="damage" minresistance="0.0" maxresistance="0.90" />
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,256,128,128" color="116,205,170,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="laniusburnresist1" name="Lanius Skin" type="resistance" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="6" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000">
+        <Effect minstrength="0" maxstrength="6" strengthchange="-5" resistancefor="burn" resistance="0.2" />
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,256,128,128" color="116,205,170,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="laniusburnresist2" name="Lanius Skin" type="resistance" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="11" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000">
+        <Effect minstrength="0" maxstrength="11" strengthchange="-5" resistancefor="burn" resistance="0.4" />
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,256,128,128" color="116,205,170,255" origin="0,0" />
+    </Affliction>
+    <Affliction identifier="laniuspressureresist" name="Lanius Density" type="resistance" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="11" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000">
+        <Effect minstrength="0" maxstrength="11" strengthchange="-5" resistancefor="pressure" resistance="0.9" />
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,256,128,128" color="116,205,170,255" origin="0,0" />
+    </Affliction>
+</Afflictions>
