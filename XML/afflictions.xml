@@ -128,7 +128,7 @@
         <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="128,0,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 
-    <Affliction identifier="bonefixnanite" type="nanite" isbuff="true" limbspecific="true" maxstrength="3" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+    <Affliction identifier="bonefixnanite" type="nanite" isbuff="true" limbspecific="false" maxstrength="3" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
         <!--<Effect minstrength="0" maxstrength="30" strengthchange="0.2">
         <StatusEffect target="This, Limb">
             <ReduceAffliction identifier="blunttrauma" amount="0.4" />
@@ -148,7 +148,7 @@
         <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,384,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 
-    <Affliction identifier="deepfixnanite" type="nanite" isbuff="true" limbspecific="true" maxstrength="2" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+    <Affliction identifier="deepfixnanite" type="nanite" isbuff="true" limbspecific="false" maxstrength="2" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
     <!-- <Effect minstrength="0" maxstrength="29" strengthchange="0.2">
       <StatusEffect target="This, Limb">
         <ReduceAffliction identifier="blunttrauma" amount="0.2" />
