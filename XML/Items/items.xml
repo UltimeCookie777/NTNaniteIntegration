@@ -266,14 +266,13 @@
         </MeleeWeapon>
     </Neural>
 
-    <Paral identifier="huskparalnanite" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
+    <Paral identifier="husknanite" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
         <Upgrade gameversion="0.10.0.0" scale="0.5" />
         <Fabricate suitablefabricators="medicalfabricator" requiredtime="160">
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="calyxanide" />
-            <RequiredItem identifier="antiparalysis" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -287,8 +286,7 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="Character" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="huskparalnanite" amount="1" />
-                <Affliction identifier="paralysis" amount="5" />
+                <Affliction identifier="husknanite" amount="1" />
             </StatusEffect>
             
             <StatusEffect type="OnBroken" target="This">
