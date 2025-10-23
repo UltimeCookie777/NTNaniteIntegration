@@ -30,10 +30,10 @@
     <entitydescription.neuralnanite>Medical nanites, which reconnect damaged neurons and dissolve hallucinogenic elements. This strain is global for entire body and nanite maintenance cost is doubled. Two doses may be integrated.</entitydescription.neuralnanite>
     <afflictionname.neuralnanite>'Cerebrate' Nanites</afflictionname.neuralnanite>
     <afflictiondescription.neuralnanite>Nanites from this strain reconnect neurons and dissolve hallucinogens. Integration 1: Psychosis, hallucinating. Integration 2: Opiate addiction.</afflictiondescription.neuralnanite>
-    <entityname.huskparalnanite>'Asclepius' injection</entityname.huskparalnanite>
-    <entitydescription.huskparalnanite>Medical nanites, which fight invading parasites and treat muscle paralysis. This strain is global for entire body and nanite maintenance cost is doubled. Two doses may be integrated.</entitydescription.huskparalnanite>
-    <afflictionname.huskparalnanite>'Asclepius' Nanites</afflictionname.huskparalnanite>
-    <afflictiondescription.huskparalnanite>Nanites from this strain resist parasites and treat paralized muscles. Integration 1: Paralysis, husk infection progress is slowed down. Integration 2: Husk infection.</afflictiondescription.huskparalnanite>
+    <entityname.husknanite>'Asclepius' injection</entityname.husknanite>
+    <entitydescription.husknanite>Medical nanites, which fight invading parasites and treat muscle paralysis. This strain is global for entire body and nanite maintenance cost is doubled. Two doses may be integrated.</entitydescription.husknanite>
+    <afflictionname.husknanite>'Asclepius' Nanites</afflictionname.husknanite>
+    <afflictiondescription.husknanite>Nanites from this strain resist parasites and treat paralized muscles. Integration 1: Paralysis, husk infection progress is slowed down. Integration 2: Husk infection.</afflictiondescription.husknanite>
     <entityname.vigorbuffnanite>'Armstrong' injection</entityname.vigorbuffnanite>
     <entitydescription.vigorbuffnanite>Amplification nanites, which enlarge muscular mass of the organism, leading to increased strenght and organism density. This strain is global for entire body and nanite maintenance cost is doubled. Two doses may be integrated.</entitydescription.vigorbuffnanite>
     <afflictionname.vigorbuffnanite>'Armstrong' Nanites</afflictionname.vigorbuffnanite>
