@@ -27,6 +27,7 @@
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="lithium" amount="3" />
+            <RequiredItem identifier="fpgacircuit" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -70,7 +71,7 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="Character" checkconditionalalways="true" duration="12">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <ReduceAffliction identifier="precursor" amount="10" />
+                <Affliction identifier="naniteremover" amount="1" />
                 <Affliction identifier="burn" amount="1" />
             </StatusEffect>
             
@@ -82,11 +83,12 @@
 
     <Recontructor identifier="reconstructornanite" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
         <Upgrade gameversion="0.10.0.0" scale="0.5" />
-        <Fabricate suitablefabricators="medicalfabricator" requiredtime="70" amount="2">
+        <Fabricate suitablefabricators="medicalfabricator" requiredtime="70" >
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="antibleeding3" />
+            <RequiredItem identifier="Plastiseal" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -117,6 +119,7 @@
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="antidama1" />
+            <RequiredItem identifier="thiamine" amount="2" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -210,8 +213,9 @@
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="liquidoxygenite" />
-            <RequiredItem identifier="antibloodloss2" />
-            <RequiredItem identifier="antibloodloss2" />
+            <RequiredItem identifier="antibloodloss2" amount="2"/>
+            <RequiredItem identifier="bvm" />
+            <RequiredItem identifier="autopulse" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -241,8 +245,7 @@
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
-            <RequiredItem identifier="antinarc" />
-            <RequiredItem identifier="dementonite" />
+            <RequiredItem identifier="dementonite" amount="2" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -273,6 +276,7 @@
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="calyxanide" />
+            <RequiredItem identifier="antibiotics" ammout="2" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -302,9 +306,8 @@
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
-            <RequiredItem identifier="steroids" />
+            <RequiredItem identifier="steroids" amount="2" />
             <RequiredItem identifier="physicorium" />
-            <RequiredItem identifier="fulgurium" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -365,7 +368,7 @@
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
-            <RequiredItem identifier="physicorium" />
+            <RequiredItem identifier="electriciansgoggles" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
