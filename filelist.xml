@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<contentpackage name="NT Nanite Integration" modversion="1.0.0" corepackage="False">
-    <Item file="%ModDir%/XML/Items/items.xml" />
-    <Afflictions file="%ModDir%/XML/afflictions.xml" />
-    <Other file="%ModDir%/Images/buffAtlas.png"/>
-    <Other file="%ModDir%/Images/itemAtlas.png"/>
-    <Text file="%ModDir%/Localization/English.xml" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="NT Nanite Integration" modversion="1.0.0" corepackage="False" steamworkshopid="3592173710" gameversion="1.10.7.2">
+  <Item file="%ModDir%/XML/Items/items.xml" />
+  <Afflictions file="%ModDir%/XML/afflictions.xml" />
+  <Other file="%ModDir%/Images/buffAtlas.png" />
+  <Other file="%ModDir%/Images/itemAtlas.png" />
+  <Text file="%ModDir%/Localization/English.xml" />
 </contentpackage>
