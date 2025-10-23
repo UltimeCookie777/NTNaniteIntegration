@@ -1,3 +1,5 @@
+NTNan.Limbs = {LimbType.Head, LimbType.Torso, LimbType.LeftArm, LimbType.LeftLeg, LimbType.RightArm, LimbType.RightLeg}
+
 function NTNan.GetAfflictionResistances(afflictionName, tier)
 
     local affliction = NTNan.AfflictionsRes[afflictionName]
@@ -6,13 +8,15 @@ function NTNan.GetAfflictionResistances(afflictionName, tier)
 
     local resistances = {}
 
+
     for key, i in ipairs(affliction.levels) do
+
+        if key >= tier then return resistances end
 
         for _,value in pairs(i) do
             table.insert(resistances, value)
         end
 
-        if key+1 == tier then return resistances end
     end
 end
 
