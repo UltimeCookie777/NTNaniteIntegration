@@ -37,16 +37,8 @@ function NTNan.UpdateHuman(character)
 
     local function applyHeals(character, healStats)
 
-        print(character)
-        print(healStats)
-        print("-----")
-
         for k,hl in pairs(healStats)do
             
-            print(k)
-            print(hl)
-            
-
             local affName = hl[1]
             local str = hl[2]
             local isLocal = hl[3]
@@ -159,7 +151,6 @@ function NTNan.UpdateHuman(character)
     --Remover
     if HF.HasAffliction(character, NTNan.Afflictions.Remover) then
         for _,val in pairs(aff) do
-            print(val)
             if not (val == NTNan.Afflictions.Precursor) then
                 HF.SetAffliction(character, val, 0)
             end
