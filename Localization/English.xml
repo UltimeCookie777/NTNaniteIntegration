@@ -15,7 +15,7 @@
     <entityname.bonefixnanite>'Osmium' injection</entityname.bonefixnanite>
     <entitydescription.bonefixnanite>Medical nanites, which mend broken bones. Three dose may be integrated.</entitydescription.bonefixnanite>
     <afflictionname.bonefixnanite>'Osmium' Nanites</afflictionname.bonefixnanite>
-    <afflictiondescription.bonefixnanite>Nanites from this strain treat bones. Integration 1: Blunt and Bone damage repair. Integration 2: Limbs and Torso fractures repair. Integration 3: Neck, Head and Spine repairs.</afflictiondescription.bonefixnanite>
+    <afflictiondescription.bonefixnanite>Nanites from this strain treat bones. Integration 1: Blunt and Bone damage repair including dislocations. Integration 2: Limbs and Torso fractures repair. Integration 3: Neck, Head and Spine repairs.</afflictiondescription.bonefixnanite>
     <entityname.deepfixnanite>'Kaltsit' injection</entityname.deepfixnanite>
     <entitydescription.deepfixnanite>Medical nanites, which heal internal organ injures, keeping organism safe on a fundamental level. Two doses may be integrated.</entitydescription.deepfixnanite>
     <afflictionname.deepfixnanite>'Kaltsit' Nanites</afflictionname.deepfixnanite>

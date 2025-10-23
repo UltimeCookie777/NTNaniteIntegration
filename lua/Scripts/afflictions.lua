@@ -24,7 +24,7 @@ NTNan.AfflictionsRes[NTNan.Afflictions.Reconstructor] = { name = NTNan.Afflictio
 }
     --Osmium
 NTNan.AfflictionsRes[NTNan.Afflictions.BoneFix] = { name = NTNan.Afflictions.BoneFix, levels = {
-    {{"blunttrauma", 0.4, true},{"bonedamage",0.5, true}},
+    {{"blunttrauma", 0.4, true},{"bonedamage",0.5, true},{"dislocation1", 3},{"dislocation2", 3},{"dislocation3", 3},{"dislocation4", 3}},
     {{"rl_fracture", 3},{"ll_fracture", 3},{"t_fracture",3},{"ra_fracture", 3},{"la_fracture", 3}},
     {{"n_fracture", 3},{"h_fracture",3},{"t_paralysis",1}}}
 }
