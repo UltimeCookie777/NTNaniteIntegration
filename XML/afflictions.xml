@@ -178,7 +178,7 @@
     <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,0,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 
-    <Affliction identifier="oxybloodnanite" type="nanite" isbuff="true" limbspecific="false" maxstrength="1" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+    <Affliction identifier="oxybloodnanite" type="nanite" isbuff="true" limbspecific="false" maxstrength="2" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
     <!-- <Effect minstrength="0" maxstrength="29" strengthchange="0.1">
       <StatusEffect target="Character">
         <ReduceAffliction identifier="bloodloss" amount="0.1" />
