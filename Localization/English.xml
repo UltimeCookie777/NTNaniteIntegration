@@ -52,6 +52,10 @@
     <entitydescription.laniusxenonanite>Xenotech nanites, barely researched, but seem to cover one's body in thin layer of metal-like compound which seems to be resistant to pressure, but limit freedom of movement. Note: Resistant, not immune. Two doses may be integrated.</entitydescription.laniusxenonanite>
     <afflictionname.laniusxenonanite>'Lanius' Xeno-nanites</afflictionname.laniusxenonanite>
     <afflictiondescription.laniusxenonanite>Alien nanites, which seem to increase resistance to heat, pressure and decrease oxygen consumption. Integration 1: Minor burn and oxygen deprivation resistance. Integration 2: Partial pressure resistance and mitigates the need of oxygen.</afflictiondescription.laniusxenonanite>
-
+    <entityname.mechfixnanite>'Makinis' injection</entityname.mechfixnanite>
+    <entitydescription.mechfixnanite>Mechanical nanites, slowly repairing cyberlimbs. Two doses may be integrated.</entitydescription.mechfixnanite>
+    <afflictionname.mechfixnanite>'Makinis' Nanites</afflictionname.mechfixnanite>
+    <afflictiondescription.mechfixnanite>Nanites repairs mechanical limbs Integration 1: Fix loose screws and bent metal. Integration 2: Repairs missing metal pieces and damaged electronics.</afflictiondescription.mechfixnanite>
+    
 
 </infotexts>

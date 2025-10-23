@@ -52,6 +52,10 @@
     <entitydescription.laniusxenonanite>Nanites xenotech à peine étudiées, mais qui semblent couvrir le corps d’une fine couche de composé métallique résistant à la pression, bien que cela limite la liberté de mouvement. Remarque: résistant, pas immunisé.  et le coût d’entretien des nanites est triplé en raison de leur nature extraterrestre. Deux doses peuvent être intégrées.</entitydescription.laniusxenonanite>
     <afflictionname.laniusxenonanite>Nanites xéno «Lanius»</afflictionname.laniusxenonanite>
     <afflictiondescription.laniusxenonanite>Nanites extraterrestres qui semblent augmenter la résistance à la chaleur, à la pression et réduire la consommation d’oxygène. Intégration1: légère résistance aux brûlures et à la privation d’oxygène. Intégration2: résistance partielle à la pression et atténuation du besoin d’oxygène.</afflictiondescription.laniusxenonanite>
-
+    <entityname.mechfixnanite>Injection «Makinis»</entityname.mechfixnanite>
+    <entitydescription.mechfixnanite>Nanites méchaniques qui réparent lentement les membres artificiels. Deux doses peuvent être intégrées..</entitydescription.mechfixnanite>
+    <afflictionname.mechfixnanite>Nanites «Makinis»</afflictionname.mechfixnanite>
+    <afflictiondescription.mechfixnanite>Les Nanites réparent les membres artificiels. Intégration 1: Fixe les vis déserrées et le métal plié. Int2gration 2: Répare le métal manquant et l'électronique endommagé.</afflictiondescription.mechfixnanite>
+    
 
 </infotexts>

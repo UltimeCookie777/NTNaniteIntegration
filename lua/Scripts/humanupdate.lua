@@ -69,7 +69,8 @@ function NTNan.UpdateHuman(character)
 
             if val == NTNan.Afflictions.Reconstructor then
                 for _,limb in pairs(NTNan.Limbs) do
-                    HF.AddAfflictionLimb(character, "burn", limb, 100)
+                    print(limb)
+                    HF.AddAfflictionLimb(character, "burn", limb, 10)
                 end
                 
             elseif val == NTNan.Afflictions.DeepFix then
@@ -132,6 +133,11 @@ function NTNan.UpdateHuman(character)
     --Neural
     if HF.HasAffliction(character, NTNan.Afflictions.Neural) then
         applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.Neural, HF.GetAfflictionStrength(character, NTNan.Afflictions.Neural)))
+    end
+
+    --MechFix
+    if HF.HasAffliction(character, NTNan.Afflictions.Mechfix) then
+        applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.Mechfix, HF.GetAfflictionStrength(character, NTNan.Afflictions.Mechfix)))
     end
 
     --Husk

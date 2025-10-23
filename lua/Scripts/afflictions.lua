@@ -14,6 +14,7 @@ NTNan.Afflictions.VigorBuff = "vigorbuffnanite"
 NTNan.Afflictions.HyperBuff = "hyperbuffnanite"
 NTNan.Afflictions.VisionBuff = "visionbuffnanite"
 NTNan.Afflictions.LaniusXeno = "laniusxenonanite"
+NTNan.Afflictions.Mechfix = "mechfixnanite"
 
 --HealingNanites
     --Ichor
@@ -46,3 +47,9 @@ NTNan.AfflictionsRes[NTNan.Afflictions.AntiTox] = {name=NTNan.Afflictions.AntiTo
 NTNan.AfflictionsRes[NTNan.Afflictions.Neural] = {name=NTNan.Afflictions.Neural, levels = {
     {{"psychosis",0.2},{"hallucinating",0.2},{"stun", 1.1},{"opiateaddiction",0.2},{"chemaddiction",0.2}}}
 }
+
+    --Makinis
+NTNan.AfflictionsRes[NTNan.Afflictions.Mechfix] = {name = NTNan.Afflictions.Mechfix, levels = {
+    {{"ntc_loosescrews", 0.5, true},{"ntc_bentmetal", 0.5,true}},
+    {{"ntc_materialloss", 0.3,true},{"ntc_damagedelectronics", 0.3,true}}
+}}
