@@ -2,7 +2,7 @@ function NTNan.UpdateHuman(character)
         
     local aff = NTNan.GetAllNanAfflictions(character)
 
-    if aff == {} then return end
+    if aff == {} or aff == nil then return end
 
     local function hasEnoughPrecursors(character)
     
