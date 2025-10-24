@@ -38,7 +38,6 @@ function NTNan.UpdateHuman(character)
     local function applyHeals(character, healStats)
 
         for k,hl in pairs(healStats)do
-            
             local affName = hl[1]
             local str = hl[2]
             local isLocal = hl[3]
