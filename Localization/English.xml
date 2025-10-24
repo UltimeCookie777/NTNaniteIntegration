@@ -7,7 +7,7 @@
     <entityname.naniteprecursor>Nanite precursor injection</entityname.naniteprecursor>
     <entitydescription.naniteprecursor>Baseline nanites, that prepare the organism for further nanite integration, they replicate themselves towards the level threshold and maintain other nanites. Inject before integrating functional nanites.</entitydescription.naniteprecursor>
     <afflictionname.precursor>Nanite Precursor</afflictionname.precursor>
-    <afflictiondescription.precursor>Baseline nanites, they replicate themselves over time and maintain other nanites. Precursor may sustain 2 nanites per integration without decay.</afflictiondescription.precursor>
+    <afflictiondescription.precursor>Baseline nanites, they replicate themselves over time and maintain other nanites. Precursor may sustain 1 nanite per integration without decay.</afflictiondescription.precursor>
     <entityname.reconstructornanite>'Ichor' injection</entityname.reconstructornanite>
     <entitydescription.reconstructornanite>Medical nanites, which keep wounds closed and burns treated, mainly fixing skin and outer flesh. Three doses may be integrated.</entitydescription.reconstructornanite>
     <afflictionname.reconstructornanite>'Ichor' Nanites</afflictionname.reconstructornanite>

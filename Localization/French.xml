@@ -7,7 +7,7 @@
     <entityname.naniteprecursor>Injection de précurseur de nanite</entityname.naniteprecursor>
     <entitydescription.naniteprecursor>Nanites de base, qui préparent l'organisme à une intégration ultérieure de nanites, ils se répliquent jusqu'au seuil de niveau et maintiennent les autres nanites. À injecter avant d'intégrer des nanites fonctionnelles.</entitydescription.naniteprecursor>
     <afflictionname.precursor>Nanites precurseurs</afflictionname.precursor>
-    <afflictiondescription.precursor>Nanites de base, ils se répliquent avec le temps et maintiennent les autres nanites. Le précurseur peut soutenir 2 nanites par intégration sans dégradation.</afflictiondescription.precursor>
+    <afflictiondescription.precursor>Nanites de base, ils se répliquent avec le temps et maintiennent les autres nanites. Le précurseur peut soutenir 1 nanite par intégration sans dégradation.</afflictiondescription.precursor>
     <entityname.reconstructornanite>Injection «Ichor»</entityname.reconstructornanite>
     <entitydescription.reconstructornanite>Nanites medicaux qui ferment les plaies et traitent les brûlures, principalement en réparant la peau et les tissus externes. Trois doses peuvent être intégrées.</entitydescription.reconstructornanite>
     <afflictionname.reconstructornanite>Nanites «Ichor»</afflictionname.reconstructornanite>
