@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="NT Nanite Integration" modversion="1.0.5" corepackage="False" steamworkshopid="3592173710" gameversion="1.10.7.2">
+<contentpackage name="NT Nanite Integration" modversion="1.0.6" corepackage="False" steamworkshopid="3592173710" gameversion="1.10.7.2">
   <Item file="%ModDir%/XML/Items/items.xml" />
   <Afflictions file="%ModDir%/XML/afflictions.xml" />
   <Other file="%ModDir%/Images/buffAtlas.png" />
