@@ -41,7 +41,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="precursor" amount="1" />
+                <Hook name="NTNanApplyNanite" id="precursor" amount="1" />
+                <!-- <Affliction identifier="precursor" amount="1" /> -->
             </StatusEffect>
 
             <StatusEffect type="OnBroken" target="This">
@@ -102,7 +103,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="reconstructornanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="reconstructornanite" amount="1" />
+                <!-- <Affliction identifier="reconstructornanite" amount="1" /> -->
                 <Affliction identifier="lacerations" amount="10" />
             </StatusEffect>
 
@@ -133,7 +135,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="deepfixnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="deepfixnanite" amount="1" />
+                <!-- <Affliction identifier="deepfixnanite" amount="1" /> -->
                 <Affliction identifier="blunttrauma" amount="10" />
             </StatusEffect>
             
@@ -164,7 +167,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="bonefixnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="bonefixnanite" amount="1" />
+                <!-- <Affliction identifier="bonefixnanite" amount="1" /> -->
                 <Affliction identifier="blunttrauma" amount="10" />
             </StatusEffect>
 
@@ -196,7 +200,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="antitoxnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="antitoxnanite" amount="1" />
+                <!-- <Affliction identifier="antitoxnanite" amount="1" /> -->
                 <Affliction identifier="opiateoverdose" amount="10" />
             </StatusEffect>
             
@@ -229,7 +234,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="oxybloodnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="oxybloodnanite" amount="1" />
+                <!-- <Affliction identifier="oxybloodnanite" amount="1" /> -->
                 <Affliction identifier="oxygenlow" amount="90" />
             </StatusEffect>
             
@@ -259,7 +265,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="neuralnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="neuralnanite" amount="1" />
+                <!-- <Affliction identifier="neuralnanite" amount="1" /> -->
                 <Affliction identifier="hallucinating" amount="20" />
             </StatusEffect>
 
@@ -290,7 +297,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="husknanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="husknanite" amount="1" />
+                <!-- <Affliction identifier="husknanite" amount="1" /> -->
             </StatusEffect>
             
             <StatusEffect type="OnBroken" target="This">
@@ -321,7 +329,8 @@
         <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
         <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
             <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-            <Affliction identifier="vigorbuffnanite" amount="1" />
+            <Hook name="NTNanApplyNanite" id="vigorbuffnanite" amount="1" />
+            <!-- <Affliction identifier="vigorbuffnanite" amount="1" /> -->
             <Affliction identifier="chemaddiction" amount="7" />
         </StatusEffect>
         
@@ -352,7 +361,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="hyperbuffnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="hyperbuffnanite" amount="1" />
+                <!-- <Affliction identifier="hyperbuffnanite" amount="1" /> -->
                 <Affliction identifier="chemaddiction" amount="7" />
             </StatusEffect>
             
@@ -382,7 +392,8 @@
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
             <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true" duration="1">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-                <Affliction identifier="visionbuffnanite" amount="1" />
+                <Hook name="NTNanApplyNanite" id="visionbuffnanite" amount="1" />
+                <!-- <Affliction identifier="visionbuffnanite" amount="1" /> -->
                 <Affliction identifier="hallucinating" amount="40" />
             </StatusEffect>
             
