@@ -42,7 +42,7 @@ NTNan.AfflictionsRes[NTNan.Afflictions.OxyBlood] = {name=NTNan.Afflictions.OxyBl
     --Mithridates
 NTNan.AfflictionsRes[NTNan.Afflictions.AntiTox] = {name=NTNan.Afflictions.AntiTox, levels = {
     {{"drunk",0.5},{"opiateoverdose",1},{"morbusinepoisoning",1.2},{"deliriuminepoisoning",1.2},{"sufforinpoisoning",2.1},{"cyanidepoisoning",1.1},{"paralysis",1.1}},
-    {{"sepsis",2}}}
+    {{"sepsis",0.25}}}
 }
     --Cerebrate
 NTNan.AfflictionsRes[NTNan.Afflictions.Neural] = {name=NTNan.Afflictions.Neural, levels = {

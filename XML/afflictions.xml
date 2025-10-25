@@ -36,7 +36,7 @@
         <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="256,128,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 
-    <Affliction identifier="antitoxnanite" type="nanite" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="1" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" ShowInHealthScannerThreshold="4" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
+    <Affliction identifier="antitoxnanite" type="nanite" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="2" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" ShowInHealthScannerThreshold="4" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
         <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="384,0,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 

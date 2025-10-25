@@ -21,11 +21,11 @@
     <afflictionname.deepfixnanite>'Kaltsit' Nanites</afflictionname.deepfixnanite>
     <afflictiondescription.deepfixnanite>Nanites from this strain treat inner layers of flesh. Integration 1: Internal bleeding and foreign bodies. Integration 2: All organs damage.</afflictiondescription.deepfixnanite>
     <entityname.antitoxnanite>'Mithridates' injection</entityname.antitoxnanite>
-    <entitydescription.antitoxnanite>Medical nanites, which dissolve poisons and toxins, functioning as barrier against incompetent medic or traitorship. One dose may be integrated.</entitydescription.antitoxnanite>
+    <entitydescription.antitoxnanite>Medical nanites, which dissolve poisons, toxins and bacterial infection, functioning as barrier against incompetent medic or traitorship. Two doses may be integrated.</entitydescription.antitoxnanite>
     <afflictionname.antitoxnanite>'Mithridates' Nanites</afflictionname.antitoxnanite>
-    <afflictiondescription.antitoxnanite>Nanites from this strain dissolve poisons and toxins. Integration 1: Alcohol, opiate overdose, Deliriumine poisoning, Morbusine poisoning, Sufforin poisoning, Cyanide poisoning and Paralysis.</afflictiondescription.antitoxnanite>
+    <afflictiondescription.antitoxnanite>Nanites from this strain dissolve poisons and toxins. Integration 1: Alcohol, opiate overdose, Deliriumine poisoning, Morbusine poisoning, Sufforin poisoning, Cyanide poisoning and Paralysis. Integration 2: Sepsis.</afflictiondescription.antitoxnanite>
     <entityname.oxybloodnanite>'Halesium' injection</entityname.oxybloodnanite>
-    <entitydescription.oxybloodnanite>Medical nanites, that assist organism with blood production, circulation and decreases radiation levels, generally decreasing time it takes to regain counciousness and oxygen. At higher integration it can even restart the heart. Nanite maintenance cost is doubled. Two doses may be integrated.</entitydescription.oxybloodnanite>
+    <entitydescription.oxybloodnanite>Medical nanites, that assist organism with blood production, circulation and decreases radiation levels, generally decreasing time it takes to regain counciousness and oxygen. At higher integration it can even restart the heart. NANITE MAINTENANCE COST IS DOUBLED. Two doses may be integrated.</entitydescription.oxybloodnanite>
     <afflictionname.oxybloodnanite>'Halesium' Nanites</afflictionname.oxybloodnanite>
     <afflictiondescription.oxybloodnanite>Nanites from this strain produce additional blood cells. Integration 1: Bloodloss, decreases speed at which oxygen deprivation grows and Radiation sickness. Integration 2: Fibrilation, cardiac tamponnade, cerebral hypoxia and restart the heart if it stops.</afflictiondescription.oxybloodnanite>
     <entityname.neuralnanite>'Cerebrate' injection</entityname.neuralnanite>
