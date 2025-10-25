@@ -12,7 +12,6 @@ Hook.Add("NTNanApplyNanite", function(effect, deltaTime, item, targets, worldPos
     local str = element.GetAttributeString("strength", 1)
 
     for _,character in pairs(targets) do
-        print(character)
         HF.AddAffliction(character, id, str)
     end
 
