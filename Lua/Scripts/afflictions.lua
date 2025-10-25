@@ -41,7 +41,8 @@ NTNan.AfflictionsRes[NTNan.Afflictions.OxyBlood] = {name=NTNan.Afflictions.OxyBl
 }
     --Mithridates
 NTNan.AfflictionsRes[NTNan.Afflictions.AntiTox] = {name=NTNan.Afflictions.AntiTox, levels = {
-    {{"drunk",0.5},{"opiateoverdose",1},{"morbusinepoisoning",1.2},{"deliriuminepoisoning",1.2},{"sufforinpoisoning",2.1},{"cyanidepoisoning",1.1},{"paralysis",1.1}}}
+    {{"drunk",0.5},{"opiateoverdose",1},{"morbusinepoisoning",1.2},{"deliriuminepoisoning",1.2},{"sufforinpoisoning",2.1},{"cyanidepoisoning",1.1},{"paralysis",1.1}},
+    {{"sepsis",2}}}
 }
     --Cerebrate
 NTNan.AfflictionsRes[NTNan.Afflictions.Neural] = {name=NTNan.Afflictions.Neural, levels = {
@@ -53,3 +54,16 @@ NTNan.AfflictionsRes[NTNan.Afflictions.Mechfix] = {name = NTNan.Afflictions.Mech
     {{"ntc_loosescrews", 0.5, true},{"ntc_bentmetal", 0.5,true}},
     {{"ntc_materialloss", 0.3,true},{"ntc_damagedelectronics", 0.3,true}}
 }}
+
+for _,v in pairs(NTC.RegisteredExpansions) do
+    if v.Name == "Eyes" then
+        print("NT Eyes detected !")
+
+    NTNan.AfflictionsRes[NTNan.Afflictions.VisionBuff] = {name = NTNan.Afflictions.VisionBuff, levels = {
+        {},
+        {{"dm_human", 0.5},{"dm_cyber", 0.5},{"dm_enhanced", 0.5},{"dm_plastic", 0.5},{"dm_crawler", 0.5},{"dm_mudraptor", 0.5},{"dm_hammerhead", 0.5},{"dm_watcher", 0.5},{"dm_husk", 0.5},{"dm_charybdis", 0.5},{"dm_latcher", 0.5},{"dm_terror", 0.5}}
+    }}
+
+
+    end
+end

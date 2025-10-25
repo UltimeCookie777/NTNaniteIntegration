@@ -17,7 +17,7 @@ if (Game.IsMultiplayer and SERVER) or not Game.IsMultiplayer then
         dofile(NTNan.Path.."/Lua/Scripts/humanupdate.lua")
 
         NTC.AddHumanUpdateHook(NTNan.UpdateHuman)
-    end, 1)
+    end, 2)
     
 else
     -- client only

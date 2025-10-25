@@ -1,3 +1,12 @@
+-- Checking if NT Eyes is present
+EYESENABLED = false
+for _,v in pairs(NTC.RegisteredExpansions) do
+    if v.Name == "Eyes" then
+        EYESENABLED = true
+    end
+end
+
+
 function NTNan.UpdateHuman(character)
         
     local aff = NTNan.GetAllNanAfflictions(character)
@@ -131,6 +140,13 @@ function NTNan.UpdateHuman(character)
     --MechFix
     if HF.HasAffliction(character, NTNan.Afflictions.Mechfix) then
         applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.Mechfix, HF.GetAfflictionStrength(character, NTNan.Afflictions.Mechfix)))
+    end
+
+    --VisionBuff
+    if EYESENABLED then
+        if HF.HasAffliction(character, NTNan.Afflictions.VisionBuff) then
+            applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.VisionBuff, HF.GetAfflictionStrength(character, NTNan.Afflictions.VisionBuff)))
+        end
     end
 
     --Husk
