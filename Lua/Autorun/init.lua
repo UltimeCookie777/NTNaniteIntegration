@@ -1,7 +1,7 @@
 
 NTNan = {} -- Neurotrauma Nanite Integration
 NTNan.Name="Nanite Integration"
-NTNan.Version = "1.1.1"
+NTNan.Version = "1.1.2"
 NTNan.VersionNum = 01100100
 NTNan.MinNTVersion = "A1.14.7"
 NTNan.MinNTVersionNum = 01140700
