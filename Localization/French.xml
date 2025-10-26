@@ -19,7 +19,7 @@
     <entityname.deepfixnanite>Injection «Kaltsit»</entityname.deepfixnanite>
     <entitydescription.deepfixnanite>Nanites médicaux qui guérissent les lésions internes des organes, protégeant l’organisme à un niveau fondamental. Deux doses peuvent être intégrées.</entitydescription.deepfixnanite>
     <afflictionname.deepfixnanite>Nanites «Kaltsit»</afflictionname.deepfixnanite>
-    <afflictiondescription.deepfixnanite>Les nanites de cette souche traitent les couches internes de la chair et des os. Intégration 1: traumatismes contondants. Intégration 2: dommages aux organes.</afflictiondescription.deepfixnanite>
+    <afflictiondescription.deepfixnanite>Les nanites de cette souche traitent les couches internes de la chair et des os. Intégration 1: traumatismes contondants et les degats de vibrations(Real Sonar Requis). Intégration 2: dommages aux organes.</afflictiondescription.deepfixnanite>
     <entityname.antitoxnanite>Injection «Mithridates»</entityname.antitoxnanite>
     <entitydescription.antitoxnanite>Nanites medicaux qui dissolvent poisons, toxines et infections bacteriennes, servant de barrière contre les medecins incompétents ou la trahison. Deux doses peut être intégrée.</entitydescription.antitoxnanite>
     <afflictionname.antitoxnanite>Nanites «Mithridates»</afflictionname.antitoxnanite>
@@ -31,7 +31,7 @@
     <entityname.neuralnanite>Injection «Cerebrate»</entityname.neuralnanite>
     <entitydescription.neuralnanite>Nanites medicaux qui reconnectent les neurones endommagés et dissolvent les éléments hallucinogènes. Une dose peut être intégrée.</entitydescription.neuralnanite>
     <afflictionname.neuralnanite>Nanites «Cerebrate»</afflictionname.neuralnanite>
-    <afflictiondescription.neuralnanite>Les nanites de cette souche reconnectent les neurones et dissolvent les hallucinogènes. Intégration 1: psychose, hallucinations, dépendance aux opiacés et étourdissement.</afflictiondescription.neuralnanite>
+    <afflictiondescription.neuralnanite>Les nanites de cette souche reconnectent les neurones et dissolvent les hallucinogènes. Intégration 1: psychose, hallucinations, dépendance aux opiacés, étourdissement et les hemorragies cerebrales (Real Sonar Requis).</afflictiondescription.neuralnanite>
     <entityname.husknanite>Injection «Asclepius»</entityname.husknanite>
     <entitydescription.husknanite>Nanites medicaux qui combattent les parasites envahissants. Deux doses peuvent être intégrées.</entitydescription.husknanite>
     <afflictionname.husknanite>Nanites «Asclepius»</afflictionname.husknanite>
