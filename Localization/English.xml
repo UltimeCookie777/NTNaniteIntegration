@@ -47,7 +47,7 @@
     <entityname.visionbuffnanite>'Beholder' injection</entityname.visionbuffnanite>
     <entitydescription.visionbuffnanite>Amplification nanites, which augment ocular tissues to allow for supernatural vision, at higher level it slowly repairs damaged tissues in the eyes. As a side effect, vision is sharp enough to disperse light akin to a prism.  Two doses may be integrated.</entitydescription.visionbuffnanite>
     <afflictionname.visionbuffnanite>'Beholder' Nanites</afflictionname.visionbuffnanite>
-    <afflictiondescription.visionbuffnanite>Nanites from this strain augment vision. Integration 1: Amplified accuracy with weapon and increased repair efficiency. Integration 2: Heals eye damage (NT Eyes Required)</afflictiondescription.visionbuffnanite>
+    <afflictiondescription.visionbuffnanite>Nanites from this strain augment vision. Integration 1: Amplified accuracy with weapon and increased repair efficiency. Integration 2: Heals eye damage (NT Eyes Required) and Welder's eye (Immersive Repairs Required)</afflictiondescription.visionbuffnanite>
     <entityname.laniusxenonanite>'Lanius' xeno-injection</entityname.laniusxenonanite>
     <entitydescription.laniusxenonanite>Xenotech nanites, barely researched, but seem to cover one's body in thin layer of metal-like compound which seems to be resistant to pressure, but limit freedom of movement. Note: Resistant, not immune. Two doses may be integrated.</entitydescription.laniusxenonanite>
     <afflictionname.laniusxenonanite>'Lanius' Xeno-nanites</afflictionname.laniusxenonanite>

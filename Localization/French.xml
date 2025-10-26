@@ -47,7 +47,7 @@
     <entityname.visionbuffnanite>Injection «Beholder»</entityname.visionbuffnanite>
     <entitydescription.visionbuffnanite>Nanites d’amplification qui augmentent les tissus oculaires pour permettre une vision surnaturelle, à plus haut niveau ils réparents les tissues occulaires endommagés. La vision devient assez nette pour disperser la lumière comme un prisme. Une dose peut être intégrée.</entitydescription.visionbuffnanite>
     <afflictionname.visionbuffnanite>Nanites «Beholder»</afflictionname.visionbuffnanite>
-    <afflictiondescription.visionbuffnanite>Les nanites de cette souche améliorent la vision. Intégration 1: précision accrue avec les armes et efficacité de réparation augmentée. Intégration 2: Soigne les dégâts aux yeux (NT Eyes requis).</afflictiondescription.visionbuffnanite>
+    <afflictiondescription.visionbuffnanite>Les nanites de cette souche améliorent la vision. Intégration 1: précision accrue avec les armes et efficacité de réparation augmentée. Intégration 2: Soigne les dégâts aux yeux (NT Eyes requis) et Welder's Eye (Immersive Repairs requis).</afflictiondescription.visionbuffnanite>
     <entityname.laniusxenonanite>Xeno injection «Lanius»</entityname.laniusxenonanite>
     <entitydescription.laniusxenonanite>Nanites xenotech à peine étudiées, mais qui semblent couvrir le corps d’une fine couche de composé métallique résistant à la pression, bien que cela limite la liberté de mouvement. Remarque: résistant, pas immunisé.  et le coût d’entretien des nanites est triplé en raison de leur nature extraterrestre. Deux doses peuvent être intégrées.</entitydescription.laniusxenonanite>
     <afflictionname.laniusxenonanite>Nanites xéno «Lanius»</afflictionname.laniusxenonanite>

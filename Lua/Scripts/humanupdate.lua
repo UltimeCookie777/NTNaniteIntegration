@@ -6,6 +6,10 @@ for _,v in pairs(NTC.RegisteredExpansions) do
     end
 end
 
+IRENABLED = false
+for mod in ContentPackageManager.EnabledPackages.All do
+    if mod.Name == "Immersive Repairs" then IRENABLED = true end
+end
 
 function NTNan.UpdateHuman(character)
         
@@ -146,6 +150,14 @@ function NTNan.UpdateHuman(character)
     if EYESENABLED then
         if HF.HasAffliction(character, NTNan.Afflictions.VisionBuff) then
             applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.VisionBuff, HF.GetAfflictionStrength(character, NTNan.Afflictions.VisionBuff)))
+        end
+    end
+
+    if IRENABLED then
+        if HF.HasAffliction(character, NTNan.Afflictions.VisionBuff) then
+            if HF.GetAfflictionStrength(character, NTNan.Afflictions.VisionBuff) > 1 then
+                applyHeals(character, {{"welderseye", 5}})
+            end
         end
     end
 
