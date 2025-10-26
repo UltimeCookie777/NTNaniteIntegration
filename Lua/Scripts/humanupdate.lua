@@ -11,6 +11,12 @@ for mod in ContentPackageManager.EnabledPackages.All do
     if mod.Name == "Immersive Repairs" then IRENABLED = true end
 end
 
+RSENABLE = false
+for mod in ContentPackageManager.EnabledPackages.All do
+    if mod.Name == "Real Sonar" then RSENABLE = true 
+    end
+end
+
 function NTNan.UpdateHuman(character)
         
     local aff = NTNan.GetAllNanAfflictions(character)
@@ -124,6 +130,14 @@ function NTNan.UpdateHuman(character)
     --DeepFix
     if HF.HasAffliction(character, NTNan.Afflictions.DeepFix) then
         applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.DeepFix, HF.GetAfflictionStrength(character, NTNan.Afflictions.DeepFix)))
+        if RSENABLE == true then
+            if HF.GetAfflictionStrength(character, NTNan.Afflictions.DeepFix) > 0 then
+                applyHeals(character, {{"vibrationdamage", 0.5},{"nervedamage", 0,2},{"muscledamage", 0,2}})
+            end
+            if HF.GetAfflictionStrength(character, NTNan.Afflictions.DeepFix) > 1 then
+                applyHeals(character, {{"rupturedlung", 1}})
+            end
+        end
     end
 
     --OxyBlood
@@ -139,6 +153,11 @@ function NTNan.UpdateHuman(character)
     --Neural
     if HF.HasAffliction(character, NTNan.Afflictions.Neural) then
         applyHeals(character, NTNan.GetAfflictionResistances(NTNan.Afflictions.Neural, HF.GetAfflictionStrength(character, NTNan.Afflictions.Neural)))
+        if RSENABLE == true then
+            if HF.GetAfflictionStrength(character, NTNan.Afflictions.DeepFix) > 0 then
+                applyHeals(character, {{"brainhemorrhage", 2}})
+            end
+        end
     end
 
     --MechFix

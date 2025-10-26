@@ -19,7 +19,7 @@
     <entityname.deepfixnanite>'Kaltsit' injection</entityname.deepfixnanite>
     <entitydescription.deepfixnanite>Medical nanites, which heal internal organ injures, keeping organism safe on a fundamental level. Two doses may be integrated.</entitydescription.deepfixnanite>
     <afflictionname.deepfixnanite>'Kaltsit' Nanites</afflictionname.deepfixnanite>
-    <afflictiondescription.deepfixnanite>Nanites from this strain treat inner layers of flesh. Integration 1: Internal bleeding and foreign bodies. Integration 2: All organs damage.</afflictiondescription.deepfixnanite>
+    <afflictiondescription.deepfixnanite>Nanites from this strain treat inner layers of flesh. Integration 1: Internal bleeding, foreign bodies and vibrations damages (Real Sonar Required). Integration 2: All organs damage.</afflictiondescription.deepfixnanite>
     <entityname.antitoxnanite>'Mithridates' injection</entityname.antitoxnanite>
     <entitydescription.antitoxnanite>Medical nanites, which dissolve poisons, toxins and bacterial infection, functioning as barrier against incompetent medic or traitorship. Two doses may be integrated.</entitydescription.antitoxnanite>
     <afflictionname.antitoxnanite>'Mithridates' Nanites</afflictionname.antitoxnanite>
@@ -31,7 +31,7 @@
     <entityname.neuralnanite>'Cerebrate' injection</entityname.neuralnanite>
     <entitydescription.neuralnanite>Medical nanites, which reconnect damaged neurons and dissolve hallucinogenic elements. One doses may be integrated.</entitydescription.neuralnanite>
     <afflictionname.neuralnanite>'Cerebrate' Nanites</afflictionname.neuralnanite>
-    <afflictiondescription.neuralnanite>Nanites from this strain reconnect neurons and dissolve hallucinogens. Integration 1: Psychosis, hallucinating, Opiate addiction and stun.</afflictiondescription.neuralnanite>
+    <afflictiondescription.neuralnanite>Nanites from this strain reconnect neurons and dissolve hallucinogens. Integration 1: Psychosis, hallucinating, Opiate addiction, stun and brain hemorrhage (Real Sonar Required).</afflictiondescription.neuralnanite>
     <entityname.husknanite>'Asclepius' injection</entityname.husknanite>
     <entitydescription.husknanite>Medical nanites, which fight invading parasites and treat muscle paralysis. Two doses may be integrated.</entitydescription.husknanite>
     <afflictionname.husknanite>'Asclepius' Nanites</afflictionname.husknanite>
