@@ -88,7 +88,7 @@
             <RequiredSkill identifier="medical" level="60" />
             <RequiredItem identifier="nanitebase" />
             <RequiredItem identifier="antibleeding3" />
-            <RequiredItem identifier="Plastiseal" />
+            <RequiredItem identifier="antibleeding2" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
@@ -219,7 +219,7 @@
             <RequiredItem identifier="liquidoxygenite" />
             <RequiredItem identifier="antibloodloss2" amount="2"/>
             <RequiredItem identifier="bvm" />
-            <RequiredItem identifier="autopulse" />
+            <RequiredItem identifier="autocpr" />
         </Fabricate>
         <Deconstruct time="15">
             <RequiredItem identifier="nanitebase" />
