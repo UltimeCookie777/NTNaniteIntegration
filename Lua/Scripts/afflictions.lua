@@ -1,6 +1,7 @@
 NTNan.Afflictions = {}
 NTNan.AfflictionsRes = {}
 
+NTNan.Afflictions.Decay = "nanitedecay"
 NTNan.Afflictions.Precursor = "precursor"
 NTNan.Afflictions.Remover = "naniteremover"
 NTNan.Afflictions.Reconstructor = "reconstructornanite"

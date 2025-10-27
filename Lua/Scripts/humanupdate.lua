@@ -75,8 +75,15 @@ function NTNan.UpdateHuman(character)
 
     end
 
-    if not hasEnoughPrecursors(character) then
-        for _,val in pairs(aff) do
+    if not(hasEnoughPrecursors(character)) then
+        HF.AddAffliction(character, NTNan.Afflictions.Decay, 1*NT.Deltatime)
+    else
+        HF.AddAffliction(character, NTNan.Afflictions.Decay, -1*1*NT.Deltatime)
+    end
+
+    if HF.HasAffliction(character, NTNan.Afflictions.Decay) then
+        if HF.GetAfflictionStrength(character, NTNan.Afflictions.Decay) == 100 then
+            for _,val in pairs(aff) do
             HF.SetAffliction(character, val, 0)
 
             if val == NTNan.Afflictions.Reconstructor then
@@ -110,9 +117,13 @@ function NTNan.UpdateHuman(character)
                 HF.AddAffliction(character, "ll_fracture", 50)
             elseif val == NTNan.Afflictions.VisionBuff then
                 HF.AddAffliction(character, "psychosis", 100)
+            elseif val == NTNan.Afflictions.Mechfix then
+                for _,limb in pairs(NTNan.Limbs) do
+                    HF.AddAfflictionLimb(character, "blunttrauma", limb, 8)
+                end
+            end
             end
         end
-        return
     end
 
 

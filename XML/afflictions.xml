@@ -10,6 +10,10 @@
         <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,0,128,128" color="116,170,232,255" origin="0,0" />
     </Affliction>
 
+    <Affliction identifier="nanitedecay" type="nanite" isbuff="false" limbspecific="false" indicatorlimb="Torso" maxstrength="100" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" iconcolors="150,30,30,255; 150,20,20,255; 150,0,0,255">
+        <icon texture="%ModDir%/Images/buffAtlas.png" sourcerect="0,128,128,128" color="180,20,20,255" origin="0,0" />
+    </Affliction>
+
     <!-- Resist/Regen strains -->
 
     <Affliction identifier="reconstructornanite" type="nanite" isbuff="true" limbspecific="false" indicatorlimb="Torso" maxstrength="3" hideiconafterdelay="true" activationthreshold="1" showiconthreshold="1" showicontoothersthreshold="1" ShowInHealthScannerThreshold="4" iconcolors="186,205,232,255;116,205,232,255;116,170,232,255">
