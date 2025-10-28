@@ -56,4 +56,6 @@
   <entitydescription.mechfixnanite>Механические наниты, медленно восстанавливающие киберконечности. Две дозы могут быть интегрированы.</entitydescription.mechfixnanite>
   <afflictionname.mechfixnanite>Наниты 'Макинис'</afflictionname.mechfixnanite>
   <afflictiondescription.mechfixnanite>Наниты данного вида восстанавливают механические конечности. Интеграция 1: Исправляют незатянутые болты и погнутый металл. Интеграция 2: Восстанавливает потерю материала и повреждённую электронику.</afflictiondescription.mechfixnanite>
+  <afflictionname.nanitedecay>Разрушающиеся наниты</afflictionname.nanitedecay>
+  <afflictiondescription.nanitedecay>Недостаточно нанит-предтеч для поддержки всех нанит, они медленно разрушаются! Постарайтесь найти инъекцию предтеч как можно скорее!</afflictiondescription.nanitedecay>
 </infotexts>
