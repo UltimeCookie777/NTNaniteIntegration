@@ -148,7 +148,6 @@ end)
 --Husk
 NTNan.RegisterCustomAffliction("husknanite", function (character)
     local tier = HF.GetAfflictionStrength(character, "husknanite")
-    print(tier)
 
     if HF.HasAffliction(character, "huskinfection") then
         if tier == 1 then

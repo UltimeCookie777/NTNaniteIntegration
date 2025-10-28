@@ -9,7 +9,6 @@ function NTNan.RegisterCustomAffliction(afflictionID, tickingFunction, decayFunc
 
     local notPresent = true
     for e in NTNan.Afflictions do
-        print(e)
         if e == afflictionID then
             notPresent = false
             break

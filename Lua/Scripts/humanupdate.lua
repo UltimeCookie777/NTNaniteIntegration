@@ -28,7 +28,7 @@ function NTNan.UpdateHuman(character)
     end
 
     for aff in afflictions do
-        print(aff)
+
         if not(NTNan.AfflictionsCustom[aff] == nil) then
             NTNan.AfflictionsCustom[aff][1](character)
         end
