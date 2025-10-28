@@ -2,7 +2,7 @@
 <Items>
     <NaniteBase identifier="nanitebase" category="Medical" cargocontaineridentifier="medicalcrate" Tags="smallitem,medical" useinhealthinterface="false" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="4">
         <Upgrade gameversion="0.10.0.0" scale="0.5" />
-        <PreferredContainer primary="ruinstoragelarge,ruinstorage,ruinstoragesmall" minamount="0" maxamount="2" spawnprobability="0.1" />
+        <PreferredContainer primary="ruinstoragelarge,ruinstorage,ruinstoragesmall" minamount="1" maxamount="3" spawnprobability="0.1" />
         <Fabricate suitablefabricators="medicalfabricator" requiredtime="20" amount="1">
             <RequiredSkill identifier="electrical" level="40" />
             <RequiredSkill identifier="medical" level="60" />
@@ -38,7 +38,7 @@
 
         <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
             <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-            <StatusEffect tags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true">
+            <StatusEffect statuseffecttags="medical" type="OnUse" target="UseTarget" checkconditionalalways="true">
                 <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
                 <Hook name="NTNanApplyNanite" id="precursor" amount="1" />
                 <!-- <Affliction identifier="precursor" amount="1" /> -->

@@ -12,8 +12,8 @@ if (Game.IsMultiplayer and SERVER) or not Game.IsMultiplayer then
 
     Timer.Wait(function()
         dofile(NTNan.Path.."/Lua/Scripts/hook.lua")
-        dofile(NTNan.Path.."/Lua/Scripts/afflictions.lua")
         dofile(NTNan.Path.."/Lua/Scripts/helperfunctions.lua")
+        dofile(NTNan.Path.."/Lua/Scripts/afflictions.lua")
         dofile(NTNan.Path.."/Lua/Scripts/humanupdate.lua")
 
         NTC.AddHumanUpdateHook(NTNan.UpdateHuman)

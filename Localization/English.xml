@@ -56,6 +56,8 @@
     <entitydescription.mechfixnanite>Mechanical nanites, slowly repairing cyberlimbs. Two doses may be integrated.</entitydescription.mechfixnanite>
     <afflictionname.mechfixnanite>'Makinis' Nanites</afflictionname.mechfixnanite>
     <afflictiondescription.mechfixnanite>Nanites repairs mechanical limbs Integration 1: Fix loose screws and bent metal. Integration 2: Repairs missing metal pieces and damaged electronics.</afflictiondescription.mechfixnanite>
+    <afflictionname.nanitedecay>Decaying Nanites</afflictionname.nanitedecay>
+    <afflictiondescription.nanitedecay>Not enough precursors to support all nanites, they are slowly disintegrating ! Try to find a precursor injection as soon as possible !</afflictiondescription.nanitedecay>
     
 
 </infotexts>
