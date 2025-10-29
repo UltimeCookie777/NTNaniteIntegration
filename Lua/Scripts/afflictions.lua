@@ -26,12 +26,9 @@ for _,v in pairs(NTC.RegisteredExpansions) do
 end
 
 NTNan.IRENABLED = false
-for mod in ContentPackageManager.EnabledPackages.All do
-    if mod.Name == "Immersive Repairs" then NTNan.IRENABLED = true end
-end
-
 NTNan.RSENABLE = false
 for mod in ContentPackageManager.EnabledPackages.All do
+    if mod.Name == "Immersive Repairs" then NTNan.IRENABLED = true end
     if mod.Name == "Real Sonar" then NTNan.RSENABLE = true end
 end
 
@@ -68,10 +65,10 @@ NTNan.RegisterHealingAffliction("deepfixnanite", {
 NTNan.RegisterCustomAffliction("deepfixnanite", function (character)
     if NTNan.RSENABLE == true then
         if HF.GetAfflictionStrength(character, "deepfixnanite") > 0 then
-            applyHeals(character, {{"vibrationdamage", 0.5},{"nervedamage", 0,2},{"muscledamage", 0,2}})
+            NTNan.applyHeals(character, {{"vibrationdamage", 0.5, true},{"nervedamage", 0.2, true},{"muscledamage", 0.2, true}})
         end
         if HF.GetAfflictionStrength(character, "deepfixnanite") > 1 then
-            applyHeals(character, {{"rupturedlung", 1}})
+            NTNan.applyHeals(character, {{"rupturedlung", 1, true}})
         end
     end
 end, function (_) end)
@@ -100,7 +97,7 @@ NTNan.RegisterHealingAffliction("neuralnanite",{
 
 NTNan.RegisterCustomAffliction("neuralnanite", function (character)
     if NTNan.RSENABLE then
-        applyHeals(character, {{"brainhemorrhage", 2}})
+        NTNan.applyHeals(character, {{"brainhemorrhage", 2, true}})
     end
 end, function (_) end)
 
